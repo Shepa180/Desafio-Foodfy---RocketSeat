@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+
+header img { 
+    position: relative; 
+    margin-top: 35px;
+    margin-left: 500px;
+    
+ }
+#sobre { 
+    position: absolute; 
+    top: 40px; 
+    left: 700px; 
+    width: 100%; 
+    
+ }
+
+ #receitas { 
+    position: absolute; 
+    top: 40px; 
+    left: 770px; 
+    width: 100%; 
+    
+ }
+ 
+header a {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    
+}
+
+#box-principal {
+    background-color:rgb(243, 217, 213);
+    margin-top: 36px;
+    margin-left: 500px;
+    width: 940px;
+    height: 366px;
+    border-radius: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+#box-principal h1 {
+    font-size: 32px;
+    position: relative;
+    margin-left: 60px;
+    width: 300px;
+}
+
+#box-principal p {
+    font-size: 18px;
+    margin-left: 60px;
+    width: 300px;
+    height: 84px;
+    text-align: justify;
+    opacity: 70%;
+}
+
+#box-principal img {
+    float: right;
+    margin-right: 100px;
+    margin-top: 65px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 500px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+}
+
+.cards {
+    max-width: 910px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.imagem-card {
+    border-radius: 15px;
+}
+
+.conteudo-card {
+    font-size: 18px;
+    margin-top: 20px ;
+}
+
+.autor-card {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#footer {
+    margin-top: 60px;
+    background-color:#e5e2e2;
+    padding: 32px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
